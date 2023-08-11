@@ -10,10 +10,10 @@ const Portfolio = () => {
       
     <article className="gauche">
       <h2>Notre portfolio</h2>
-        <Link to="#"><img src={transport1} alt='transport1' /></Link>
-        <Link to="#"><img src={transport2} alt='transport2' /></Link>
-        <Link to="#"><img src={transport3} alt='transport3' /></Link>
-        <Link to="#"><img src={transport4} alt='transport4' /></Link>
+        <a href="#"><img src={transport1} alt='transport1' /></a>
+        <a href="#"><img src={transport2} alt='transport2' /></a>
+        <a href="#"><img src={transport3} alt='transport3' /></a>
+        <a href="#"><img src={transport4} alt='transport4' /></a>
       
     </article>
     <div className="droite">NOS TRAVAUX</div>
