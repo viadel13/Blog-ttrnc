@@ -68,7 +68,7 @@ h1:hover
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0px;
+    opacity: 1px;
     transition-property: opacity z-index;
     transition-duration: 2s;
     z-index: 1;     /*niveau d'empilement*/   
