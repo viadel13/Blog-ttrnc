@@ -64,6 +64,15 @@ h1:hover
     height: 325px;    
 }
 
+#contenu1
+{
+    opacity: 1;
+}
+#contenu1:target, #contenu2:target, #contenu3:target, #contenu4:target
+{
+    opacity: 1;
+    z-index: 2;    
+}
 #contenu2 .gauche img
 {
     width: 100px;
