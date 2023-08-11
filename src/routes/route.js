@@ -10,7 +10,7 @@ const Root = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Accueil />}>
-          <Route index element={<Propos />} />
+          <Route index element={<Portfolio />} />
           <Route path="/propos" element={<Propos />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
