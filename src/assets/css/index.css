@@ -63,25 +63,7 @@ h1:hover
     border-radius: 0px 0px 30px 30px;
     height: 325px;    
 }
-#contenu1, #contenu2, #contenu3, #contenu4
-{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    opacity: 0px;
-    transition-property: opacity z-index;
-    transition-duration: 2s;
-    z-index: 1;     /*niveau d'empilement*/   
-}
-#contenu1
-{
-    opacity: 1;
-}
-#contenu1:target, #contenu2:target, #contenu3:target, #contenu4:target
-{
-    opacity: 1;
-    z-index: 2;    
-}
+
 #contenu2 .gauche img
 {
     width: 100px;
