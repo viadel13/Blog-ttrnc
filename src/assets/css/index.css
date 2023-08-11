@@ -87,7 +87,7 @@ h1:hover
     width: 100px;
     height: 75px;
     border: 0px;
-    opacity: 0px;
+    opacity: 1px;
     transition-property: width opacity z-index;
     transition-duration: 2s;
     transition-timing-function: ease;
